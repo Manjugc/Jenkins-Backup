@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4LpqAH3xs/RmmYhD/EybOifMRJTM6efyE9co38v8t2MXAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH0voDnxJanFJfoApM1wtcQAAAA=[0mJava_test" build number [8mha:////4BCS41nKez+N6hv82U9C49Y6lCVNfhsaiTwi6S+td8w7AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH0voDnxJanFJfqGxgDPw4h+xgAAAA==[0m13
+originally caused by:
+ Started by upstream project "[8mha:////4Jz+0tz/W3lP1B9WwVusYB1Z6sHS97ge953TsJ4XX61DAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH3n+JLU4hJ9AIebMozBAAAA[0mC_test" build number [8mha:////4Gij8htt8XXHPq8hTJFqN62MkMmaoJuSdwjOX9TZYtGXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfef4ktTiEn0LADbuzTTCAAAA[0m8
+ originally caused by:
+  Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/general command
+[general command] $ /bin/sh -xe /tmp/jenkins3627952326365176550.sh
++ mkdir Jendemo1
++ cd Jendemo1
++ touch file1
+Finished: SUCCESS

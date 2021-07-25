@@ -1,0 +1,13 @@
+Warning: no key algorithms provided; JENKINS-42959 disabled
+SSHLauncher{host='172.31.46.74', port=22, credentialsId='26f47042-462b-482c-8de3-fd99c504b1b4', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.KnownHostsFileKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[07/25/21 10:27:07] [SSH] Opening SSH connection to 172.31.46.74:22.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 10 more retries left.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 9 more retries left.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 8 more retries left.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 7 more retries left.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 6 more retries left.

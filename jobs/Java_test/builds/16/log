@@ -1,0 +1,44 @@
+Started by GitHub push by Manjugc
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Java_test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Java_test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjugc/Javaapplication.git # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Javaapplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Javaapplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ERROR: Error fetching remote repo 'origin'
+hudson.plugins.git.GitException: Failed to fetch from https://github.com/Manjugc/Javaapplication.git
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1000)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1241)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1301)
+	at hudson.scm.SCM.checkout(SCM.java:505)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1211)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:636)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:508)
+	at hudson.model.Run.execute(Run.java:1906)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: hudson.plugins.git.GitException: Command "git fetch --tags --force --progress -- https://github.com/Manjugc/Javaapplication.git +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: remote: Enumerating objects: 5, done.        
+remote: Counting objects:  20% (1/5)        remote: Counting objects:  40% (2/5)        remote: Counting objects:  60% (3/5)        remote: Counting objects:  80% (4/5)        remote: Counting objects: 100% (5/5)        remote: Counting objects: 100% (5/5), done.        
+remote: Compressing objects:  33% (1/3)        remote: Compressing objects:  66% (2/3)        remote: Compressing objects: 100% (3/3)        remote: Compressing objects: 100% (3/3), done.        
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0        
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2677)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2102)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:86)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:624)
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:998)
+	... 11 more
+ERROR: Error fetching remote repo 'origin'
+Finished: FAILURE

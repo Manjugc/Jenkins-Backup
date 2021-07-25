@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4LpqAH3xs/RmmYhD/EybOifMRJTM6efyE9co38v8t2MXAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH0voDnxJanFJfoApM1wtcQAAAA=[0mJava_test" build number [8mha:////4ItvsbhQkDYbjwDcXeZ/zXBeMp6ONoRPt78VAMCdsy13AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH0voDnxJanFJfqGFgBHGlrpxgAAAA==[0m18
+originally caused by:
+ Started by GitHub push by Manjugc
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/general command
+[general command] $ /bin/sh -xe /tmp/jenkins5299686447712167415.sh
++ mkdir Jendemo12
+mkdir: cannot create directory ‘Jendemo12’: File exists
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

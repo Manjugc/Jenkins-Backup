@@ -1,0 +1,22 @@
+Started by user [8mha:////4O6fQh48SOgPf7QIu4XCbtrvWgSFy6jlz1RDJOrQJqOCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL93MS8rFIAypi8fMAAAAA=[0mManju
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/C_test
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Manjugc/Project.C.git
+ > git init /var/lib/jenkins/workspace/C_test # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Project.C.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Project.C.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjugc/Project.C.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a184f26878a56b0176d19725f9b56a67d00b05f0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a184f26878a56b0176d19725f9b56a67d00b05f0 # timeout=10
+Commit message: "clean code is updated"
+First time build. Skipping changelog.
+Finished: SUCCESS

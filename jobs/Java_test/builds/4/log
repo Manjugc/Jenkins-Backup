@@ -1,0 +1,19 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Java_test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Java_test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjugc/Javaapplication.git # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Javaapplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Javaapplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6f07df2e3c3281b07cefb7294ee5f3a9b8cf11a2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6f07df2e3c3281b07cefb7294ee5f3a9b8cf11a2 # timeout=10
+Commit message: "remodified fib file"
+ > git rev-list --no-walk 9ba3d6be13be74a86706b5d3af7af096770869f4 # timeout=10
+Finished: SUCCESS

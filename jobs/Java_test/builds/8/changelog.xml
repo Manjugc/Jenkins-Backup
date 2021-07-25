@@ -1,0 +1,12 @@
+commit 32f8dea4ba5c0c274e75acadf504e98bf6e634f4
+tree f80a0eecc907dc1743daa61d41aca55d297db4aa
+parent bae721b682cabcb1736db2b00086483cfc39dea5
+author root <root@ip-172-31-19-98.us-east-2.compute.internal> 2021-07-22 08:19:22 +0000
+committer root <root@ip-172-31-19-98.us-east-2.compute.internal> 2021-07-22 08:19:22 +0000
+
+    modyfied fibon
+
+
+:100644 100755 b1d1ef11b735122595a3d96b072cc7d6c84461e7 b1d1ef11b735122595a3d96b072cc7d6c84461e7 M	fibonacci.java
+:100644 100644 59dcbc5676b319aad445d59df45cf125166d506e 2511280ca8c504d2287770acc4081086d5e00d11 M	target/fibonacci-1.0-SNAPSHOT.jar
+:100644 100644 dac5ad457c15ad34723ffbec5a7ec1bc7b5a9a3c 1d9dd5745ba54de458f2ecba5ea8b7b424c63100 M	target/maven-archiver/pom.properties

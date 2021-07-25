@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4LpqAH3xs/RmmYhD/EybOifMRJTM6efyE9co38v8t2MXAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH0voDnxJanFJfoApM1wtcQAAAA=[0mJava_test" build number [8mha:////4PN1NkUgvieB1MJYfbXvcVhtZFmpdlTT4rTMhfOmp4VhAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH0voDnxJanFJfqGBgB1koHnxgAAAA==[0m10
+originally caused by:
+ Started by upstream project "[8mha:////4Jz+0tz/W3lP1B9WwVusYB1Z6sHS97ge953TsJ4XX61DAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH3n+JLU4hJ9AIebMozBAAAA[0mC_test" build number [8mha:////4Hk8Qz5w0KcxHhgAd1k3p9HX1nbPEaPRi9BBDKOxOrJzAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfef4ktTiEn1TAIuSfErCAAAA[0m5
+ originally caused by:
+  Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/general command
+[general command] $ /bin/sh -xe /tmp/jenkins3549777495292130290.sh
++ mkdir general
+mkdir: cannot create directory ‘general’: File exists
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

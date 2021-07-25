@@ -1,0 +1,161 @@
+Started by user [8mha:////4O6fQh48SOgPf7QIu4XCbtrvWgSFy6jlz1RDJOrQJqOCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL93MS8rFIAypi8fMAAAAA=[0mManju
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploytom
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Deploytom/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjugc/Warfile.git # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Warfile.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Warfile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2341492864c9c8671f98d86d61aead2fa6b370bd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2341492864c9c8671f98d86d61aead2fa6b370bd # timeout=10
+Commit message: "adding files"
+ > git rev-list --no-walk 2341492864c9c8671f98d86d61aead2fa6b370bd # timeout=10
+[Deploytom] $ /bin/sh -xe /tmp/jenkins6614230374406124046.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.maven-project:server:jar:1.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.maven-project:webapp:war:1.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.maven-project:maven-project:pom:1.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 53, column 24
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[WARNING] The project com.example.maven-project:maven-project:pom:1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Maven Project                                                      [pom]
+[INFO] Server                                                             [jar]
+[INFO] Webapp                                                             [war]
+[INFO] 
+[INFO] --------------< com.example.maven-project:maven-project >---------------
+[INFO] Building Maven Project 1.0-SNAPSHOT                                [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-project ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ maven-project ---
+[INFO] Installing /var/lib/jenkins/workspace/Deploytom/pom.xml to /var/lib/jenkins/.m2/repository/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< com.example.maven-project:server >------------------
+[INFO] Building Server 1.0-SNAPSHOT                                       [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ server ---
+[INFO] Deleting /var/lib/jenkins/workspace/Deploytom/server/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ server ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Deploytom/server/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ server ---
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Deploytom/server/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ server ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Deploytom/server/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ server ---
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Deploytom/server/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ server ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/Deploytom/server/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.example.TestGreeter
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ server ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Deploytom/server/target/server.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ server ---
+[INFO] Installing /var/lib/jenkins/workspace/Deploytom/server/target/server.jar to /var/lib/jenkins/.m2/repository/com/example/maven-project/server/1.0-SNAPSHOT/server-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/Deploytom/server/pom.xml to /var/lib/jenkins/.m2/repository/com/example/maven-project/server/1.0-SNAPSHOT/server-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< com.example.maven-project:webapp >------------------
+[INFO] Building Webapp 1.0-SNAPSHOT                                       [3/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ webapp ---
+[INFO] Deleting /var/lib/jenkins/workspace/Deploytom/webapp/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ webapp ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Deploytom/webapp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ webapp ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Deploytom/webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ webapp ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/Deploytom/webapp/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [webapp] in [/var/lib/jenkins/workspace/Deploytom/webapp/target/webapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/Deploytom/webapp/src/main/webapp]
+[INFO] Webapp assembled in [172 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/Deploytom/webapp/target/webapp.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ webapp ---
+[INFO] Installing /var/lib/jenkins/workspace/Deploytom/webapp/target/webapp.war to /var/lib/jenkins/.m2/repository/com/example/maven-project/webapp/1.0-SNAPSHOT/webapp-1.0-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/Deploytom/webapp/pom.xml to /var/lib/jenkins/.m2/repository/com/example/maven-project/webapp/1.0-SNAPSHOT/webapp-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Maven Project 1.0-SNAPSHOT ......................... SUCCESS [  1.020 s]
+[INFO] Server ............................................. SUCCESS [  5.056 s]
+[INFO] Webapp 1.0-SNAPSHOT ................................ SUCCESS [  1.717 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.139 s
+[INFO] Finished at: 2021-07-25T06:28:02Z
+[INFO] ------------------------------------------------------------------------
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/Deploytom/webapp/target/webapp.war to container Tomcat 9.x Remote with context null
+  [/var/lib/jenkins/workspace/Deploytom/webapp/target/webapp.war] is not deployed. Doing a fresh deployment.
+  Deploying [/var/lib/jenkins/workspace/Deploytom/webapp/target/webapp.war]
+Finished: SUCCESS

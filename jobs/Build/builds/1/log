@@ -1,0 +1,64 @@
+Started by user [8mha:////4O6fQh48SOgPf7QIu4XCbtrvWgSFy6jlz1RDJOrQJqOCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL93MS8rFIAypi8fMAAAAA=[0mManju
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Manjugc/Javaapplication.git
+ > git init /var/lib/jenkins/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Javaapplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Javaapplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjugc/Javaapplication.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6e4e1210ca6bb821b37c38f408376e2b3571205f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6e4e1210ca6bb821b37c38f408376e2b3571205f # timeout=10
+Commit message: "Update fibonacci.java"
+First time build. Skipping changelog.
+[Build] $ /bin/sh -xe /tmp/jenkins1673427191017663230.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.rwl.test:fibonacci >-----------------------
+[INFO] Building fibonacci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fibonacci ---
+[INFO] Deleting /var/lib/jenkins/workspace/Build/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fibonacci ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ fibonacci ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/workspace/Build/target/fibonacci-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ fibonacci ---
+[INFO] Installing /var/lib/jenkins/workspace/Build/target/fibonacci-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/Build/pom.xml to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.086 s
+[INFO] Finished at: 2021-07-23T04:36:56Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4FY4F0u3Uj5sBCgUqF5gDB7DbfFdTu3PeDcWKWvxZbBYAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy
+Finished: SUCCESS

@@ -1,0 +1,63 @@
+Started by upstream project "[8mha:////4Jz+0tz/W3lP1B9WwVusYB1Z6sHS97ge953TsJ4XX61DAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH3n+JLU4hJ9AIebMozBAAAA[0mC_test" build number [8mha:////4D4gFVjSEgL1h6r6NVf3wbRCyH43ZU6ALFFZNNyTZ+7LAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfef4ktTiEn1zAKfzcqTCAAAA[0m7
+originally caused by:
+ Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Java_test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Java_test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjugc/Javaapplication.git # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Javaapplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Javaapplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 05ea9c7c63040b528d9fc8a4c607f3c45505a6a5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 05ea9c7c63040b528d9fc8a4c607f3c45505a6a5 # timeout=10
+Commit message: "modified"
+ > git rev-list --no-walk 05ea9c7c63040b528d9fc8a4c607f3c45505a6a5 # timeout=10
+[Java_test] $ /bin/sh -xe /tmp/jenkins8429562483955674642.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.rwl.test:fibonacci >-----------------------
+[INFO] Building fibonacci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fibonacci ---
+[INFO] Deleting /var/lib/jenkins/workspace/Java_test/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Java_test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Java_test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fibonacci ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ fibonacci ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/workspace/Java_test/target/fibonacci-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ fibonacci ---
+[INFO] Installing /var/lib/jenkins/workspace/Java_test/target/fibonacci-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/Java_test/pom.xml to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.321 s
+[INFO] Finished at: 2021-07-22T10:16:13Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4OnoMgfHDRTIdPv+VAV2YfhFVxUZKzSWa8QNU7iA9M6tAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZx/az8JP301LzUosQcVSOD5Pzc3MS8FH0ActNwRcwAAAA=[0mgeneral command
+Finished: SUCCESS

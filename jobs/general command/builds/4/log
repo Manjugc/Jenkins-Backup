@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4LpqAH3xs/RmmYhD/EybOifMRJTM6efyE9co38v8t2MXAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH0voDnxJanFJfoApM1wtcQAAAA=[0mJava_test" build number [8mha:////4OXCM1zaYR04tppXngS41CK//Kc0RgwxzNtlHpDYnsHDAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH0voDnxJanFJfqGhgDjooaQxgAAAA==[0m11
+originally caused by:
+ Started by upstream project "[8mha:////4Jz+0tz/W3lP1B9WwVusYB1Z6sHS97ge953TsJ4XX61DAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH3n+JLU4hJ9AIebMozBAAAA[0mC_test" build number [8mha:////4HFoAvElQDth2gM4kRfjowfbWgYV99fMbtZks70CGx3fAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfef4ktTiEn0zADHDddPCAAAA[0m6
+ originally caused by:
+  Started by user [8mha:////4O6fQh48SOgPf7QIu4XCbtrvWgSFy6jlz1RDJOrQJqOCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL93MS8rFIAypi8fMAAAAA=[0mManju
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/general command
+[general command] $ /bin/sh -xe /tmp/jenkins5378451175177045668.sh
++ mkdir general
+mkdir: cannot create directory ‘general’: File exists
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

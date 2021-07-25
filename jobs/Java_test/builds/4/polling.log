@@ -1,0 +1,12 @@
+Started on Jul 22, 2021 7:47:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 9ba3d6be13be74a86706b5d3af7af096770869f4 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/Manjugc/Javaapplication.git # timeout=10
+Found 1 remote heads on https://github.com/Manjugc/Javaapplication.git
+[poll] Latest remote head revision on refs/heads/master is: 6f07df2e3c3281b07cefb7294ee5f3a9b8cf11a2
+Done. Took 0.17 sec
+Changes found

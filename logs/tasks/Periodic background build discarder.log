@@ -1,0 +1,62 @@
+Started at Sun Jul 25 05:50:50 UTC 2021
+Processing Build
+Offering Build to Project Build Discarder
+Processing C_test
+Offering C_test to Project Build Discarder
+Processing Deploy
+Offering Deploy to Project Build Discarder
+Processing Deploytom
+Offering Deploytom to Project Build Discarder
+Processing general command
+Offering general command to Project Build Discarder
+Processing Java_test
+Offering Java_test to Project Build Discarder
+Processing Plugin
+Offering Plugin to Project Build Discarder
+Processing slave_java_build
+Offering slave_java_build to Project Build Discarder
+Processing Testing
+Offering Testing to Project Build Discarder
+Finished at Sun Jul 25 05:50:50 UTC 2021. 3ms
+Started at Sun Jul 25 06:50:50 UTC 2021
+Processing Build
+Offering Build to Project Build Discarder
+Processing C_test
+Offering C_test to Project Build Discarder
+Processing Deploy
+Offering Deploy to Project Build Discarder
+Processing Deploytom
+Offering Deploytom to Project Build Discarder
+Processing general command
+Offering general command to Project Build Discarder
+Processing Java_test
+Offering Java_test to Project Build Discarder
+Processing Plugin
+Offering Plugin to Project Build Discarder
+Processing slave_java_build
+Offering slave_java_build to Project Build Discarder
+Processing Testing
+Offering Testing to Project Build Discarder
+Finished at Sun Jul 25 06:50:50 UTC 2021. 2ms
+Started at Sun Jul 25 07:50:50 UTC 2021
+Processing Build
+Offering Build to Project Build Discarder
+Processing C_test
+Offering C_test to Project Build Discarder
+Processing Deploy
+Offering Deploy to Project Build Discarder
+Processing Deploytom
+Offering Deploytom to Project Build Discarder
+Processing general command
+Offering general command to Project Build Discarder
+Processing Java_test
+Offering Java_test to Project Build Discarder
+Processing Plugin
+Offering Plugin to Project Build Discarder
+Processing slave_java_build
+Offering slave_java_build to Project Build Discarder
+Processing SSH-connect
+Offering SSH-connect to Project Build Discarder
+Processing Testing
+Offering Testing to Project Build Discarder
+Finished at Sun Jul 25 07:50:50 UTC 2021. 1ms

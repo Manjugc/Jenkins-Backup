@@ -1,0 +1,23 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/C_test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/C_test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjugc/Project.C.git # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Project.C.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Project.C.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a184f26878a56b0176d19725f9b56a67d00b05f0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a184f26878a56b0176d19725f9b56a67d00b05f0 # timeout=10
+Commit message: "clean code is updated"
+ > git rev-list --no-walk a184f26878a56b0176d19725f9b56a67d00b05f0 # timeout=10
+[C_test] $ /bin/sh -xe /tmp/jenkins5481265690446336484.sh
++ make
+make: 'ABC.exe' is up to date.
+Triggering a new build of [8mha:////4LpqAH3xs/RmmYhD/EybOifMRJTM6efyE9co38v8t2MXAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH0voDnxJanFJfoApM1wtcQAAAA=[0mJava_test
+Finished: SUCCESS

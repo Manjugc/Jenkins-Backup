@@ -1,0 +1,43 @@
+Started by user [8mha:////4O6fQh48SOgPf7QIu4XCbtrvWgSFy6jlz1RDJOrQJqOCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL93MS8rFIAypi8fMAAAAA=[0mManju
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Java_test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Java_test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjugc/Javaapplication.git # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Javaapplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Javaapplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2fc1c1cec3cf460e29a857cb34ad86669de2dda3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2fc1c1cec3cf460e29a857cb34ad86669de2dda3 # timeout=10
+Commit message: " file changed in master"
+ > git rev-list --no-walk 2fc1c1cec3cf460e29a857cb34ad86669de2dda3 # timeout=10
+[Java_test] $ /bin/sh -xe /tmp/jenkins5387988064295527786.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.rwl.test:fibonacci >-----------------------
+[INFO] Building fibonacci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fibonacci ---
+[INFO] Deleting /var/lib/jenkins/workspace/Java_test/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.708 s
+[INFO] Finished at: 2021-07-24T14:41:51Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean) on project fibonacci: Failed to clean project: Failed to delete /var/lib/jenkins/workspace/Java_test/target/maven-archiver/pom.properties -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

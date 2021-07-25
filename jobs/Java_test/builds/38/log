@@ -1,0 +1,60 @@
+Started by user [8mha:////4O6fQh48SOgPf7QIu4XCbtrvWgSFy6jlz1RDJOrQJqOCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL93MS8rFIAypi8fMAAAAA=[0mManju
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Java_test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Java_test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjugc/Javaapplication.git # timeout=10
+Fetching upstream changes from https://github.com/Manjugc/Javaapplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Manjugc/Javaapplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2fc1c1cec3cf460e29a857cb34ad86669de2dda3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2fc1c1cec3cf460e29a857cb34ad86669de2dda3 # timeout=10
+Commit message: " file changed in master"
+ > git rev-list --no-walk 2fc1c1cec3cf460e29a857cb34ad86669de2dda3 # timeout=10
+[Java_test] $ /bin/sh -xe /tmp/jenkins7377035524944185465.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.rwl.test:fibonacci >-----------------------
+[INFO] Building fibonacci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fibonacci ---
+[INFO] Deleting /var/lib/jenkins/workspace/Java_test/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Java_test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Java_test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fibonacci ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ fibonacci ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/workspace/Java_test/target/fibonacci-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ fibonacci ---
+[INFO] Installing /var/lib/jenkins/workspace/Java_test/target/fibonacci-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/Java_test/pom.xml to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.472 s
+[INFO] Finished at: 2021-07-25T06:05:36Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

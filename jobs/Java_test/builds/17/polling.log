@@ -1,0 +1,13 @@
+Started on Jul 23, 2021 5:07:59 AM
+Started by event from 140.82.115.154 ⇒ http://18.188.139.70:8080/github-webhook/ on Fri Jul 23 05:07:59 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 6e4e1210ca6bb821b37c38f408376e2b3571205f (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/Manjugc/Javaapplication.git # timeout=10
+Found 1 remote heads on https://github.com/Manjugc/Javaapplication.git
+[poll] Latest remote head revision on refs/heads/master is: 5fd28ebb7fc755a2edfd5277e57bcaf1298ceaa9
+Done. Took 0.24 sec
+Changes found
