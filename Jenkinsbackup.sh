@@ -10,7 +10,7 @@ touch .gitignore
 echo workspace >> .gitignore
 git add *
 git commit -m "Jenkins Backup"
-git push https://github.com/Manjugc/Jenkins-Backup.git
+git push https://github.com/Manjugc/Jenkins-Backup.git master
 if [ $? -eq 0 ];
 then
 mail -s "Success" gcmanju.apr@gmail.com
